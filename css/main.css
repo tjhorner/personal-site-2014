@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
 
 *{
 	-webkit-box-sizing: border-box;
@@ -105,7 +105,7 @@ h1{
 	padding: 0;
 	margin: 0;
 	margin-top: 5px;
-	background: url(http://gravatar.com/avatar/eeadfdd648bb640c78cda62b675885cf?s=100);
+	background: url(https://gravatar.com/avatar/eeadfdd648bb640c78cda62b675885cf?s=100);
 	background-size: 50px 50px;
 	height: 50px;
 	width: 50px;

@@ -7,7 +7,7 @@ jQuery.fn.outerHTML = function(s) {
 
 try{
 	if(new window.ActiveXObject("Microsoft.XMLHTTP")){
-		window.location = "http://chrome.com";
+		window.location = "https://chrome.com";
 	}
 }catch(e){
 	console.log("Thanks for not using Internet Explorer!");
@@ -106,13 +106,13 @@ window.Site = (function(){
 		{
 			title: "About Me",
 			icon: "info-circle",
-			content: '<span class="indent"></span>Hey there! I\'m TJ Horner, known as <a href="https://www.google.com/search?q=geekygamer14">GeekyGamer14</a> on the internet. My hobbies include programming, <a href="http://soundcloud.com/geekygamer14">making music</a>, <a href="https://www.youtube.com/watch?v=QmeuSA3tr8I">playing around with my Launchpad</a>, and <a href="http://github.com/GeekyGamer14/magic">creating random and useless scripts</a> when I\'m bored. I also do some serious work such as creating 99% of <a href="http://iquestria.net">iQuestria</a> (which is quite fun actually). I have experience in HTML, Python, PHP, Ruby, JavaScript, CSS, Java, C++, and C#. As you could probably already tell, I <i>love</i> web development. Front-end and back-end.<br/><h2>What inspired me to code?</h2>See <a href="http://write.tjhorner.com/blog/post/what-inspired-me-to-learn-how-to-code">my blog post</a>.',
+			content: '<span class="indent"></span>Hey there! I\'m TJ Horner, known as <a href="https://www.google.com/search?q=geekygamer14">GeekyGamer14</a> on the internet. My hobbies include programming, <a href="https://soundcloud.com/geekygamer14">making music</a>, <a href="https://www.youtube.com/watch?v=QmeuSA3tr8I">playing around with my Launchpad</a>, and <a href="https://github.com/GeekyGamer14/magic">creating random and useless scripts</a> when I\'m bored. I also do some serious work such as creating 99% of <a href="https://iquestria.net">iQuestria</a> (which is quite fun actually). I have experience in HTML, Python, PHP, Ruby, JavaScript, CSS, Java, C++, and C#. As you could probably already tell, I <i>love</i> web development. Front-end and back-end.<br/><h2>What inspired me to code?</h2>See <a href="https://write.tjhorner.com/blog/post/what-inspired-me-to-learn-how-to-code">my blog post</a>.',
 			id: "aboutme"
 		},
 		{
 			title: "Blog",
 			icon: "pencil",
-			content: "Sometimes I write on my blog about things like hackathons. Stuff like that. Oh, it's also powered by Keystone.js. Go check it out at <a href='http://write.tjhorner.com'>write.tjhorner.com</a>.<br><br><iframe src='http://write.tjhorner.com' frameborder='0' width='100%' height='70%'></iframe>",
+			content: "Sometimes I write on my blog about things like hackathons. Stuff like that. Oh, it's also powered by Keystone.js. Go check it out at <a href='https://write.tjhorner.com'>write.tjhorner.com</a>.<br><br><iframe src='https://write.tjhorner.com' frameborder='0' width='100%' height='70%'></iframe>",
 			id: "blog"
 		},
 		{
@@ -123,23 +123,23 @@ window.Site = (function(){
 				projects = [
 					{
 						name: "Collaborative Launchpad (always down)",
-						url: "http://home.tjhorner.com:3000",
+						url: "https://home.tjhorner.com:3000",
 						description: "Control my Novation Launchpad over the internet. Uses Node.js for MIDI interface, express.js for the server and Socket.io for WebSocket stuff. Yes, this all happens on my real Launchpad. It also wakes me up in the middle of the night.",
 						image: "img/launchpad.png",
 						id: "launchpad"
 					},
 					{
 						name: "iQuestria",
-						url: "http://iquestria.net",
+						url: "https://iquestria.net",
 						description: "I'll let you figure this one out.",
-						image: "http://datastorage.iquestria.net/logos/1024.png",
+						image: "https://datastorage.iquestria.net/logos/1024.png",
 						id: "iquestria"
 					},
 					{
 						name: "Chattr",
-						url: "http://chattrapp.net",
-						description: 'Idea originally by <a href="http://syrexide.com">Syrexide</a>. An open source chat client that you can hack to your needs.',
-						image: "http://www.syrexide.com/img/chattr.png",
+						url: "https://chattrapp.net",
+						description: 'Idea originally by <a href="https://syrexide.com">Syrexide</a>. An open source chat client that you can hack to your needs.',
+						image: "https://www.syrexide.com/img/chattr.png",
 						id: "chattr"
 					}
 				];
@@ -194,17 +194,17 @@ window.Site = (function(){
 		{
 			title: "Steam",
 			icon: "steam",
-			href: "http://steamcommunity.com/id/geekygamer14"
+			href: "https://steamcommunity.com/id/geekygamer14"
 		},
 		{
 			title: "Google+",
 			icon: "google-plus",
-			href: "http://google.com/+TJHorner"
+			href: "https://google.com/+TJHorner"
 		},
 		{
 			title: "Facebook",
 			icon: "facebook",
-			href: "http://facebook.com/geekygamer14"
+			href: "https://facebook.com/geekygamer14"
 		},
 		{
 			title: "Skype",
@@ -244,7 +244,7 @@ window.Site = (function(){
 	konamiEgg = new Konami();
 	konamiEgg.code = function(){
 		$('.content').fadeOut(function(){
-			$gaben = $('<iframe></iframe>').attr('src', 'http://iquestria.net/gaben')
+			$gaben = $('<iframe></iframe>').attr('src', 'https://iquestria.net/gaben')
 											.attr('frameborder', '0')
 											.css('width', '100%')
 											.css('height', '100%')
